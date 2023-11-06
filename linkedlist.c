@@ -6,7 +6,7 @@ struct node{
     int data;
     struct node *next;
 };
-
+int i;
 struct node *Create(char c){
     struct node *ptr=malloc(sizeof(struct node));
     ptr->data=c-'0';
