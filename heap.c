@@ -97,5 +97,4 @@ int main(){
     printf("After heap sort: ");
     for(int i=1;i<c+1;i++)
         printf("%d ",arr[i]);
-    return 0;
 }
